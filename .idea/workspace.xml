@@ -6,6 +6,9 @@
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
 }</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -21,23 +24,234 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9858473-07ac-448f-a87f-0595ac338c8a" name="Changes" comment="results">
-      <change afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj2150(SCC).cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 948 (Div. 2)/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 948 (Div. 2)/B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 948 (Div. 2)/C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 948 (Div. 2)/D.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.clang-tidy" beforeDir="false" afterPath="$PROJECT_DIR$/.clang-tidy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cph/.boj_.cpp_c7be8614c0f274ebcbfbd39a34bd9341.prob" beforeDir="false" afterPath="$PROJECT_DIR$/.cph/.boj_.cpp_c7be8614c0f274ebcbfbd39a34bd9341.prob" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cph/.codeforce_.cpp_ef88baf99859352decc4f3471e793368.prob" beforeDir="false" afterPath="$PROJECT_DIR$/.cph/.codeforce_.cpp_ef88baf99859352decc4f3471e793368.prob" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SingleFileExecutionConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SingleFileExecutionConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/c_cpp_properties.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/c_cpp_properties.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/tasks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12234135_sonhoyoung.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/12234135_sonhoyoung.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtCoder_.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/AtCoder_.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj1012.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj1012.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj10775.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj10775.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj10942(팰린드롬_dp).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj10942(팰린드롬_dp).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj10999(seg_lazy).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj10999(seg_lazy).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj11047.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj11047.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj1107(리모컨).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj1107(리모컨).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj11286.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj11286.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj11403.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj11403.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj11657(bellman_ford).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj11657(bellman_ford).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj11660(dp).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj11660(dp).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj1167.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj1167.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj11724.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj11724.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj11779.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj11779.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj1197(mst,kruskal).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj1197(mst,kruskal).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj12015(lis_binary_search)_only size.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj12015(lis_binary_search)_only size.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj1260(bfs&amp;dfs).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj1260(bfs&amp;dfs).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj12851.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj12851.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj12852.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj12852.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj12865.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj12865.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj13549.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj13549.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj14003(lis_binary).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj14003(lis_binary).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj1412(Topology_Sort).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj1412(Topology_Sort).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj14284.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj14284.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj14621.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj14621.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj1504.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj1504.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj1509(dp팰린드롬).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj1509(dp팰린드롬).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj1562(bit_dp).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj1562(bit_dp).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj15650.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj15650.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj16398.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj16398.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj1647.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj1647.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj1654.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj1654.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj16953.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj16953.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj1697.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj1697.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj16975(segtree).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj16975(segtree).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj1708(Convex Hull).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj1708(Convex Hull).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj17267(0-1bfs).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj17267(0-1bfs).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj17396.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj17396.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj1753(dijkstra).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj1753(dijkstra).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj1865(negative cycle).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj1865(negative cycle).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj1916.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj1916.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj1922.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj1922.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj1929(eratosthenes sieve).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj1929(eratosthenes sieve).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj1967.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj1967.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj20040.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj20040.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj2042(세그트리).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj2042(세그트리).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj2096.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj2096.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj2150(SCC).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj2150(SCC).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj2178.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj2178.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj2252(위상정렬).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj2252(위상정렬).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj23034(조별과제).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj23034(조별과제).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj2565(lis_dp).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj2565(lis_dp).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj2568.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj2568.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj2630.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj2630.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj2820(ett).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj2820(ett).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj2887.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj2887.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj3830.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj3830.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj4386.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj4386.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj5918.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj5918.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj5928.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj5928.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj64977.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj64977.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj7576.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj7576.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj7662(multiset).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj7662(multiset).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon Online Judge/boj9997(bitmask).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon Online Judge/boj9997(bitmask).cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 872 (Div. 2)/Codeforces Round 872 (Div. 2)_A.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 872 (Div. 2)/Codeforces Round 872 (Div. 2)_A.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 872 (Div. 2)/Codeforces Round 872 (Div. 2)_B.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 872 (Div. 2)/Codeforces Round 872 (Div. 2)_B.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 873 (Div. 2)/Codeforces Round 873 (Div. 2)_A.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 873 (Div. 2)/Codeforces Round 873 (Div. 2)_A.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 873 (Div. 2)/Codeforces Round 873 (Div. 2)_B.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 873 (Div. 2)/Codeforces Round 873 (Div. 2)_B.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 880 (Div. 2)/Codeforces Round 880 (Div. 2)_A.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 880 (Div. 2)/Codeforces Round 880 (Div. 2)_A.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 895 (Div. 3)/Codeforces Round 895 (Div. 3)_A.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 895 (Div. 3)/Codeforces Round 895 (Div. 3)_A.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 895 (Div. 3)/Codeforces Round 895 (Div. 3)_B.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 895 (Div. 3)/Codeforces Round 895 (Div. 3)_B.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 895 (Div. 3)/Codeforces Round 895 (Div. 3)_C.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 895 (Div. 3)/Codeforces Round 895 (Div. 3)_C.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 895 (Div. 3)/Codeforces Round 895 (Div. 3)_D.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 895 (Div. 3)/Codeforces Round 895 (Div. 3)_D.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 937 (Div. 4)/A.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 937 (Div. 4)/A.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 937 (Div. 4)/B.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 937 (Div. 4)/B.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 937 (Div. 4)/C.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 937 (Div. 4)/C.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 937 (Div. 4)/D.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 937 (Div. 4)/D.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 937 (Div. 4)/E.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 937 (Div. 4)/E.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 937 (Div. 4)/F.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 937 (Div. 4)/F.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 938 (Div. 3)/A.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 938 (Div. 3)/A.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 938 (Div. 3)/B.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 938 (Div. 3)/B.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 938 (Div. 3)/C.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 938 (Div. 3)/C.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 938 (Div. 3)/D.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 938 (Div. 3)/D.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 938 (Div. 3)/E.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 938 (Div. 3)/E.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 944 (Div. 4)/A.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 944 (Div. 4)/A.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 944 (Div. 4)/B.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 944 (Div. 4)/B.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 944 (Div. 4)/C.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 944 (Div. 4)/C.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 944 (Div. 4)/D.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 944 (Div. 4)/D.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 944 (Div. 4)/E.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 944 (Div. 4)/E.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 944 (Div. 4)/F.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 944 (Div. 4)/F.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 947 (Div. 1 + Div. 2)/A.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 947 (Div. 1 + Div. 2)/A.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 947 (Div. 1 + Div. 2)/B.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 947 (Div. 1 + Div. 2)/B.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 947 (Div. 1 + Div. 2)/C.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 947 (Div. 1 + Div. 2)/C.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 947 (Div. 1 + Div. 2)/D.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 947 (Div. 1 + Div. 2)/D.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 948 (Div. 2)/A.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 948 (Div. 2)/A.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 948 (Div. 2)/B.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 948 (Div. 2)/B.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 948 (Div. 2)/C.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 948 (Div. 2)/C.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 948 (Div. 2)/D.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 948 (Div. 2)/D.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 951 (Div. 2)/A.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 951 (Div. 2)/A.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 951 (Div. 2)/B.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 951 (Div. 2)/B.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 951 (Div. 2)/C.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 951 (Div. 2)/C.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 951 (Div. 2)/D.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 951 (Div. 2)/D.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 952 (Div. 4)/A.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 952 (Div. 4)/A.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 952 (Div. 4)/B.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 952 (Div. 4)/B.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 952 (Div. 4)/C.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 952 (Div. 4)/C.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 952 (Div. 4)/D.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 952 (Div. 4)/D.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Codeforces Round 952 (Div. 4)/E.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Codeforces Round 952 (Div. 4)/E.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Educational Codeforces Round 148 (Div. 2)/Educational Codeforces Round 148 (Div. 2)_A.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Educational Codeforces Round 148 (Div. 2)/Educational Codeforces Round 148 (Div. 2)_A.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Educational Codeforces Round 148 (Div. 2)/Educational Codeforces Round 148 (Div. 2)_B.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Educational Codeforces Round 148 (Div. 2)/Educational Codeforces Round 148 (Div. 2)_B.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Educational Codeforces Round 151 (Rated for Div. 2)/Educational Codeforces Round 151 (Rated for Div. 2)_A.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Educational Codeforces Round 151 (Rated for Div. 2)/Educational Codeforces Round 151 (Rated for Div. 2)_A.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Educational Codeforces Round 151 (Rated for Div. 2)/Educational Codeforces Round 151 (Rated for Div. 2)_B.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Educational Codeforces Round 151 (Rated for Div. 2)/Educational Codeforces Round 151 (Rated for Div. 2)_B.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Educational Codeforces Round 164 (Rated for Div. 2)/A.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Educational Codeforces Round 164 (Rated for Div. 2)/A.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Educational Codeforces Round 164 (Rated for Div. 2)/B.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Educational Codeforces Round 164 (Rated for Div. 2)/B.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Educational Codeforces Round 164 (Rated for Div. 2)/C.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Educational Codeforces Round 164 (Rated for Div. 2)/C.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codeforces/Educational Codeforces Round 164 (Rated for Div. 2)/D.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Codeforces/Educational Codeforces Round 164 (Rated for Div. 2)/D.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_structure/10-1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Data_structure/10-1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_structure/13-1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Data_structure/13-1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_structure/더블헤싱.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Data_structure/더블헤싱.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oop1/12234135_sonhoyoung(lab10).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Oop1/12234135_sonhoyoung(lab10).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oop1/12234135_sonhoyoung(lab11).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Oop1/12234135_sonhoyoung(lab11).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oop1/12234135_sonhoyoung(lab12).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Oop1/12234135_sonhoyoung(lab12).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oop1/12234135_sonhoyoung(lab4).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Oop1/12234135_sonhoyoung(lab4).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oop1/12234135_sonhoyoung(lab6).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Oop1/12234135_sonhoyoung(lab6).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oop1/12234135_sonhoyoung(lab7).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Oop1/12234135_sonhoyoung(lab7).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oop1/12234135_sonhoyoung(lab8).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Oop1/12234135_sonhoyoung(lab8).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oop1/12234135_sonhoyoung(lab9)_problem1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Oop1/12234135_sonhoyoung(lab9)_problem1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oop1/12234135_sonhoyoung(lab9)_problem2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Oop1/12234135_sonhoyoung(lab9)_problem2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oop2/12234135_sonhoyoung(lab1).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Oop2/12234135_sonhoyoung(lab1).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oop2/12234135_sonhoyoung(lab10).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Oop2/12234135_sonhoyoung(lab10).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oop2/12234135_sonhoyoung(lab11).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Oop2/12234135_sonhoyoung(lab11).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oop2/12234135_sonhoyoung(lab12).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Oop2/12234135_sonhoyoung(lab12).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oop2/12234135_sonhoyoung(lab13).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Oop2/12234135_sonhoyoung(lab13).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oop2/12234135_sonhoyoung(lab2).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Oop2/12234135_sonhoyoung(lab2).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oop2/12234135_sonhoyoung(lab3).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Oop2/12234135_sonhoyoung(lab3).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oop2/12234135_sonhoyoung(lab4).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Oop2/12234135_sonhoyoung(lab4).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oop2/12234135_sonhoyoung(lab5).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Oop2/12234135_sonhoyoung(lab5).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oop2/12234135_sonhoyoung(lab6).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Oop2/12234135_sonhoyoung(lab6).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oop2/12234135_sonhoyoung(lab7).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Oop2/12234135_sonhoyoung(lab7).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oop2/12234135_sonhoyoung(lab8).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Oop2/12234135_sonhoyoung(lab8).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oop2/12234135_sonhoyoung(lab9).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Oop2/12234135_sonhoyoung(lab9).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UCPC/UCPC2023(예선)/D번.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/UCPC/UCPC2023(예선)/D번.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/any.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/any.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anything.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/anything.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/april_fool.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/april_fool.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baekjoon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boj_.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/boj_.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/query/client-vscode/query.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/.cmake/api/v1/query/client-vscode/query.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/build/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/build/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.26.4/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.26.4/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.26.4/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.26.4/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/out.dir/boj_.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/out.dir/boj_.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/out.dir/codeforce_.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/out.dir/codeforce_.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/out.dir/linked_list.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/out.dir/linked_list.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Testing/20240312-0532/Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/Testing/20240312-0532/Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Testing/TAG" beforeDir="false" afterPath="$PROJECT_DIR$/build/Testing/TAG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Testing/Temporary/CTestCostData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Testing/Temporary/CTestCostData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Testing/Temporary/LastTest_20240312-0532.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/Testing/Temporary/LastTest_20240312-0532.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/build/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-17f038be652e95858a76.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/out.dir/boj_.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bits/stdc++.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/bits/stdc++.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/local.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/local.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeforce_.bin" beforeDir="false" afterPath="$PROJECT_DIR$/codeforce_.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeforce_.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codeforce_.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structure.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ds.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ds.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/bits/stdc++.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bits/stdc++.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked_list.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/oop2.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/12234135_sonhoyoung.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/temp/12234135_sonhoyoung.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/twitter.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +284,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2022" />
@@ -80,38 +297,40 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2N587ZzMJLpnxsyaYuZ4C65tnev" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "CMake Application.out.executor": "Run",
-    "CMake 애플리케이션.out.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/sonhoyeong/Documents/code/c++/ps",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "structure.view.defaults.are.configured": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;CMake Application.out.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 애플리케이션.out.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sonhoyoung/Documents/Codes/c++/ps&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Oop2" />
@@ -124,11 +343,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="out" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ps" TARGET_NAME="out" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ps" RUN_TARGET_NAME="out">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -529,7 +743,78 @@
       <workItem from="1716199606610" duration="11766000" />
       <workItem from="1716285907910" duration="6764000" />
       <workItem from="1716423299694" duration="70760000" />
-      <workItem from="1717052081648" duration="17934000" />
+      <workItem from="1717052081648" duration="18624000" />
+      <workItem from="1717135715396" duration="1510000" />
+      <workItem from="1717137289305" duration="8839000" />
+      <workItem from="1717330479222" duration="5043000" />
+      <workItem from="1717425073677" duration="4687000" />
+      <workItem from="1717496710488" duration="194000" />
+      <workItem from="1717496909677" duration="99000" />
+      <workItem from="1717497089910" duration="10000" />
+      <workItem from="1717497155385" duration="327000" />
+      <workItem from="1717497488182" duration="1000" />
+      <workItem from="1717500350608" duration="67000" />
+      <workItem from="1717500422236" duration="14000" />
+      <workItem from="1717500440295" duration="63000" />
+      <workItem from="1717504221094" duration="1412000" />
+      <workItem from="1717514829822" duration="13000" />
+      <workItem from="1717570569094" duration="225000" />
+      <workItem from="1717588075848" duration="34924000" />
+      <workItem from="1717774082523" duration="9045000" />
+      <workItem from="1717818265653" duration="229000" />
+      <workItem from="1717818634155" duration="6618000" />
+      <workItem from="1717830432456" duration="22280000" />
+      <workItem from="1717905097072" duration="4726000" />
+      <workItem from="1717933992877" duration="9392000" />
+      <workItem from="1718027177105" duration="3662000" />
+      <workItem from="1718116323469" duration="375000" />
+      <workItem from="1718116701184" duration="7618000" />
+      <workItem from="1718202431037" duration="63000" />
+      <workItem from="1718210674746" duration="59000" />
+      <workItem from="1718807500524" duration="13290000" />
+      <workItem from="1718821949932" duration="300000" />
+      <workItem from="1718856080253" duration="595000" />
+      <workItem from="1718866922453" duration="38408000" />
+      <workItem from="1719144028508" duration="6824000" />
+      <workItem from="1719317100817" duration="7000" />
+      <workItem from="1719555811945" duration="551000" />
+      <workItem from="1719637905482" duration="1192000" />
+      <workItem from="1719980846627" duration="11199000" />
+      <workItem from="1720353515514" duration="4631000" />
+      <workItem from="1720707386040" duration="6525000" />
+      <workItem from="1720802893461" duration="21873000" />
+      <workItem from="1721280222941" duration="3730000" />
+      <workItem from="1721395407970" duration="86000" />
+      <workItem from="1724293386528" duration="3704000" />
+      <workItem from="1724378887562" duration="16476000" />
+      <workItem from="1724488738017" duration="5144000" />
+      <workItem from="1724843715042" duration="2921000" />
+      <workItem from="1725629787641" duration="1791000" />
+      <workItem from="1725700980919" duration="2892000" />
+      <workItem from="1726668028863" duration="19252000" />
+      <workItem from="1726758651530" duration="6070000" />
+      <workItem from="1726796499642" duration="18200000" />
+      <workItem from="1726979212872" duration="9166000" />
+      <workItem from="1727089636425" duration="1684000" />
+      <workItem from="1727259622101" duration="1000" />
+      <workItem from="1727613916940" duration="2060000" />
+      <workItem from="1727946076408" duration="896000" />
+      <workItem from="1727947200123" duration="622000" />
+      <workItem from="1728042552430" duration="2724000" />
+      <workItem from="1728305418290" duration="3632000" />
+      <workItem from="1728377290879" duration="605000" />
+      <workItem from="1728380279035" duration="1000" />
+      <workItem from="1728384864085" duration="4891000" />
+      <workItem from="1730298022989" duration="2461000" />
+      <workItem from="1730717442501" duration="371000" />
+      <workItem from="1740917811150" duration="51000" />
+      <workItem from="1742394327750" duration="277000" />
+      <workItem from="1743403642456" duration="1532000" />
+      <workItem from="1744522573225" duration="95000" />
+      <workItem from="1744522671314" duration="2432000" />
+      <workItem from="1744818439243" duration="2383000" />
+      <workItem from="1744898244645" duration="542000" />
+      <workItem from="1745999160817" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1684202014425</created>
@@ -834,7 +1119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716714533735</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="results">
+      <option name="closed" value="true" />
+      <created>1717090985727</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1717090985727</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -870,14 +1163,43 @@
           <line>2</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Codeforces/Codeforces Round 951 (Div. 2)/B.cpp</url>
+          <line>2</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Codeforces/Codeforces Round 951 (Div. 2)/B.cpp</url>
+          <line>35</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Codeforces/Codeforces Round 952 (Div. 4)/B.cpp</url>
+          <line>39</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Codeforces/Codeforces Round 952 (Div. 4)/C.cpp</url>
+          <line>39</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Codeforces/Codeforces Round 952 (Div. 4)/C.cpp</url>
+          <line>38</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Codeforces/Codeforces Round 952 (Div. 4)/C.cpp</url>
+          <line>60</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/baekjoon.cpp</url>
+          <line>71</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="CMakeRunConfiguration">
-        <watch expression="scc" language="ObjectiveC" />
-        <watch expression="indegree" language="ObjectiveC" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

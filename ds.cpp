@@ -1,218 +1,82 @@
-#include <iostream>
-#include <vector>
+
+#include <bits/stdc++.h>
 
 using namespace std;
+typedef unsigned long long ull;
+typedef long long ll;
+typedef pair<ll, ll> llll;
+typedef pair<int, int> ii;
 
-struct node
-{
-    int data;
-    node *parent;
-    vector<node *> childList;
-    node(int data, node *parent)
-    {
-        this->data = data;
-        this->parent = parent;
-    }
-};
+vector<pair<pair<pair<int,int>,pair<int,int>>,int>> cut;
+bool match[2501][2501];
+int matches[2501];
+bool dead[2501];
 
-class Tree
-{
-public:
-    Tree(int data);
-    void insertNode(int parData, int data);
-    void deleteNode(int data);
-    void printParent(int data);
-    void printChild(int data);
-    int compareChild(int data);
-
-private:
-    node *root;
-    vector<node *> nodeList;
-
-    int find(int data, vector<node *> &list);
-};
-
-Tree::Tree(int data)
-{
-    root = new node(data, NULL);
-    nodeList.push_back(root);
+int product(ll x1, ll y1, ll x2, ll y2){
+    ll x = x1*y2 - y1*x2;
+    if(x<0)return -1;
+    else if(x>0) return 1;
+    else return 0;
 }
 
-int Tree::find(int data, vector<node *> &list)
-{
-    for (int i = 0; i < list.size(); i++)
-    {
-        if (list[i]->data == data)
-        {
-            return i;
-        }
-    }
-    return -1;
+bool is_meet(int a, int b){
+    int v0x = cut[a].first.second.first - cut[a].first.first.first;
+    int v1x = cut[b].first.first.first - cut[a].first.first.first;
+    int v2x = cut[b].first.second.first - cut[a].first.first.first;
+    int v0y = cut[a].first.second.second - cut[a].first.first.second;
+    int v1y = cut[b].first.first.second - cut[a].first.first.second;
+    int v2y = cut[b].first.second.second - cut[a].first.first.second;
+    int w0x = cut[b].first.second.first - cut[b].first.first.first;
+    int w1x = cut[a].first.first.first - cut[b].first.first.first;
+    int w2x = cut[a].first.second.first - cut[b].first.first.first;
+    int w0y = cut[b].first.second.second - cut[b].first.first.second;
+    int w1y = cut[a].first.first.second - cut[b].first.first.second;
+    int w2y = cut[a].first.second.second - cut[b].first.first.second;
+    if(product(v0x, v0y, v1x, v1y)* product(v0x, v0y, v2x, v2y)<0 &&
+       product(w0x, w0y, w1x, w1y)* product(w0x, w0y, w2x, w2y)<0){
+        return true;
+    }else
+        return false;
 }
 
-void Tree::insertNode(int parData, int data)
-{
-    if (find(data, nodeList) != -1)
-    {
-        cout << -1 << endl;
-        return;
-    }
-    int idx = find(parData, nodeList);
-    if (idx == -1)
-    {
-        cout << -1 << endl;
-        return;
-    }
+int main() {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
 
-    node *parNode = nodeList[idx];
-    node *newNode = new node(data, parNode);
-    parNode->childList.push_back(newNode);
-    nodeList.push_back(newNode);
-}
-
-void Tree::deleteNode(int data)
-{
-    int idx = find(data, nodeList);
-    if (idx == -1)
-    {
-        cout << -1 << endl;
-        return;
+    int n;
+    cin>>n;
+    for(int i=0;i<n;i++){
+        int sx, sy, ex, ey, w;
+        cin>>sx>>sy>>ex>>ey>>w;
+        cut.push_back({{{sx, sy}, {ex, ey}}, w});
     }
-
-    node *delNode = nodeList[idx];
-    if (delNode == root)
-    {
-        return;
-    }
-
-    node *parNode = delNode->parent;
-    for (int i = 0; i < delNode->childList.size(); i++)
-    {
-        parNode->childList.push_back(delNode->childList[i]);
-        delNode->childList[i]->parent = parNode;
-    }
-
-    vector<node *> &child = parNode->childList;
-    child.erase(child.begin() + find(data, child));
-    nodeList.erase(nodeList.begin() + idx);
-    delete delNode;
-}
-
-void Tree::printParent(int data)
-{
-    int idx = find(data, nodeList);
-    if (idx <= 0)
-    {
-        cout << -1 << endl;
-        return;
-    }
-
-    node *curNode = nodeList[idx];
-    cout << curNode->parent->data << endl;
-}
-
-void Tree::printChild(int data)
-{
-    int idx = find(data, nodeList);
-    if (idx == -1)
-    {
-        cout << -1 << endl;
-        return;
-    }
-    vector<node *> &child = nodeList[idx]->childList;
-    if (child.empty())
-    {
-        cout << -1 << endl;
-        return;
-    }
-    for (int i = 0; i < child.size(); i++)
-    {
-        if (i == child.size() - 1)
-        {
-            cout << child[i]->data;
-        }
-        else
-        {
-            cout << child[i]->data << " ";
-        }
-    }
-    cout << endl;
-}
-
-int Tree::compareChild(int data)
-{
-    int idx = find(data, nodeList);
-    if (idx == -1)
-    {
-        return -1;
-    }
-    vector<node *> &child = nodeList[idx]->childList;
-    if (child.size() < 2)
-    {
-        return -1;
-    }
-    int maxChild{0};
-    int minChild{10001};
-
-    for (int i = 0; i < child.size(); i++)
-    {
-        if (child[i]->data >= maxChild)
-        {
-            maxChild = child[i]->data;
-        }
-        if (child[i]->data <= minChild)
-        {
-            minChild = child[i]->data;
+    for(int i=0;i<n;i++){
+        for(int j=i+1;j<n;j++){
+            if(is_meet(i, j)){
+                match[i][j]=true;
+                match[j][i]=true;
+                matches[i]++;
+                matches[j]++;
+            }
         }
     }
 
-    return maxChild + minChild;
-}
-
-int main()
-{
-    int T;
-    cin >> T;
-
-    Tree *tree = new Tree(1);
-
-    string s;
-
-    while (T--)
-    {
-        cin >> s;
-        if (s == "insert")
-        {
-            int x;
-            int y;
-            cin >> x >> y;
-            tree->insertNode(x, y);
+    ll cnt =0;
+    for(int i=0;i<n;i++){
+        priority_queue<pair<ll, int>> pq;
+        for(int j=0;j<n;j++){
+            if(dead[j])continue;
+            pq.push({-((ll)matches[j]+1ll)*(ll)cut[j].second, j});
         }
-        else if (s == "delete")
-        {
-            int x;
-            cin >> x;
-            tree->deleteNode(x);
-        }
-        else if (s == "parent")
-        {
-            int x;
-            cin >> x;
-            tree->printParent(x);
-        }
-        else if (s == "child")
-        {
-            int x;
-            cin >> x;
-            tree->printChild(x);
-        }
-        else if (s == "min_maxChild")
-        {
-            int x;
-            cin >> x;
-            cout << tree->compareChild(x) << endl;
+        int j = pq.top().second;
+        dead[j]=true;
+        cnt-=(ll)pq.top().first;
+        for(int k=0;k<n;k++){
+            if(match[j][k]){
+                matches[k]--;
+            }
         }
     }
-
-    return 0;
+    cout<<cnt;
 }
